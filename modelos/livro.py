@@ -3,12 +3,12 @@ class Livro:
     def __init__(self,titulo,autor,ano_publicacao):
         self.titulo=titulo
         self.autor=autor
-        self.ano_publicaco=ano_publicacao
+        self.ano_publicacao=ano_publicacao
         self.disponivel=True
         
 #  questão 2
     def __str__(self):
-        return f'Livro: {self.titulo} | Autor: {self.autor} | Ano de publicação: {self.ano_publicaco}'
+        return f'Livro: {self.titulo} | Autor: {self.autor} | Ano de publicação: {self.ano_publicacao}'
     
     
 # livro1=Livro('A Seleção','Kiera Cass',2009)
@@ -35,7 +35,7 @@ class Livro:
             print(f'Livros disponíveis em {ano}: {livro}')
             
 livro1=Livro('A Seleção','Kiera Cass',2009)
-livro2=Livro('Predador Americano','Maureen Calahan',2019)
+livro2=Livro('Predador Americano','Maureen Calahan',2020)
 livro3=Livro('Python sem mistérios','Joel Saade',2020)
 
 Livro.livros=[livro1,livro2,livro3]
